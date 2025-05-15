@@ -15,6 +15,7 @@
     --sfBold: 800;
     --sfSemiBold: 600;
     --sfMedium: 550;
+    --sfUltraBold: 900;
 
     font-family: var(--ft);
 }
