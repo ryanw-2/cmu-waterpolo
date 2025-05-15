@@ -1,0 +1,62 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,.1), rgba(0,0,0,0.8)), url('../../assets/poolHero.JPG');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    z-index: -1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    font-family: var(--ft);
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-text h1{
+    text-align: center;
+    max-width: 800px;
+
+    font-size: 60px;
+    font-weight: var(--sfMedium);
+}
+
+.hero-text p{
+    color: var(--textGray);
+    margin: 10px auto 20px;
+    line-height: auto;
+    text-align: center;
+    max-width: 800px;
+
+    font-size: 16px;
+}
+
+
+/*---media query-------*/
+@media (max-width: 850px){
+  .hero-text h1{
+    font-size: 40px;
+  }
+
+  nav ul li{
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 650px){
+  .hero-text h1{
+    font-size: 35px;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .hero-text p{
+    font-size: 15px;
+    margin: 15px auto 30px;
+    max-width: 300px;
+  }
+}

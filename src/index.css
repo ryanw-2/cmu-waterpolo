@@ -1,0 +1,146 @@
+@font-face {
+    font-family: SF Pro;
+    src: url('./fonts/SF-Pro.ttf');
+  }
+
+:root{
+    --ft: SF Pro;
+    --red: rgb(145, 22, 22);
+    --backgroundColor: rgb(16, 16, 16);
+    --offWhite: rgba(230,230,230);
+    --textGray: rgb(190, 190, 190);
+    --semiGray: rgb(79, 79, 79);
+    --containGray: rgba(71, 71, 71, 0.445);
+
+    --sfBold: 800;
+    --sfSemiBold: 600;
+    --sfMedium: 550;
+
+    font-family: var(--ft);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+}
+
+body{
+  background: var(--backgroundColor);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.btn{
+  width: 150px;
+  height: 45px;
+  background-color: var(--offWhite);
+  color: #101010;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--ft);
+  font-weight: var(--sfMedium);
+  font-size: 16px;
+
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 15px;
+  opacity: 1;
+}
+
+.btn:hover{
+  font-weight: var(--sfSemiBold);
+  background-color: var(--red);
+  color: #fff;
+  transition: .4s;
+}
+
+.btn:hover img{
+  position: fixed;
+  opacity: 0;
+  transition: .3s;
+}
+
+
+.sclBtn{
+  width: 200px;
+  height: 50px;
+  background-color: var(--offWhite);
+  color: #101010;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--ft);
+  font-weight: var(--sfMedium);
+  font-size: 16px;
+
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sclBtn img{
+  width: 20px;
+  margin-left: 15px;
+  opacity: 1;
+}
+
+.sclBtn:hover{
+  font-weight: var(--sfSemiBold);
+  background-color: var(--red);
+  color: #fff;
+  transition: .2s;
+}
+
+.sclBtn:hover img{
+  position: fixed;
+  opacity: 0;
+}
+
+/*----------- media query ---------- */
+
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn{
+    padding: 14px 22px;
+  }
+
+  .sclBtn{
+    padding: 14px 22px;
+  }
+}

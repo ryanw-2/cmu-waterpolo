@@ -1,0 +1,138 @@
+.leadership{
+    margin: 80px auto;
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+/* .leadership p{
+    background: #323232;
+    color: var(--textGray);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+} */
+
+
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.first-card{
+    position: relative;
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.first-card p{
+    border-radius: 0;
+    font-size: 16px;
+}
+
+
+.card{
+    position: relative;
+    width: 32%;
+    margin-bottom: 15px;
+}
+
+.card p{
+    border-radius: 0;
+    background: #ffffff00;
+    font-size: 16px;
+}
+
+.first-caption{
+    padding: 96px 20px;
+    border-radius: 10px;
+    color: var(--textGray)
+}
+
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 70%;
+
+    background: var(--containGray);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+
+    opacity: 0;
+    transition: .5s;
+}
+
+.card:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
+
+.card:hover img{
+    filter: blur(1px);
+}
+
+/*----------------media query -------------------*/
+@media (max-width: 850px){
+  .leadership{
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .first-caption{
+    padding: 28px 20px;
+  }
+
+  .first-card{
+    margin-bottom: 10px;
+  }
+
+  .card{
+    margin-bottom: 10px;
+  }
+
+  .caption{
+    opacity: 1;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 650px){
+  .leadership{
+    flex-wrap: wrap;
+  }
+
+  .first-card{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .first-caption{
+    padding: 50px 20px;
+  }
+
+  .card{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
