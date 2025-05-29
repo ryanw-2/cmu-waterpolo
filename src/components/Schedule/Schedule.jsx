@@ -13,7 +13,7 @@ const Schedule = () => {
     
     const slideForward = () => {
         if(tx > -50) {
-            tx -= 33.3333333333;
+            tx -= 30;
         }
 
         slider.current.style.transform = `translateX(${tx}%)`;
@@ -21,7 +21,7 @@ const Schedule = () => {
 
     const slideBackward = () => {
         if(tx < 0){
-            tx += 33.333333333;
+            tx += 30;
         }
 
         slider.current.style.transform = `translateX(${tx}%)`;
