@@ -1,12 +1,45 @@
-# React + Vite
+# CMU Men’s Water Polo Club Website 🏊‍♂️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, mobile-first site that showcases Carnegie Mellon’s Men’s Water Polo Club, centralizing news, roster highlights, and resources for current and prospective players. Built for speed and easy maintenance, the project lives on **GitHub Pages** for zero-cost hosting and continuous deployment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Site  
+<https://ryanw-2.github.io/cmu-waterpolo/>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview  
+<!-- Replace the link below with an actual screenshot once one is committed -->
+![Homepage screenshot](./src/assets/Events.JPG)
+
+---
+
+## 🛠️ Tech Stack
+| Layer | Tools & Frameworks |
+|-------|--------------------|
+| Front-end | **React (vite)** |
+| Styling  | **Tailwind CSS** + custom CSS |
+| Routing  | `react-router-dom` |
+| Animations/UX | `react-card-flip`, CSS transitions |
+| Deployment | **GitHub Pages** (Actions) |
+
+---
+
+## 📊 Language Breakdown
+![Language usage pie chart](https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22JavaScript%22%2C%22CSS%22%2C%22HTML%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B53.6%2C45.2%2C1.2%5D%2C%22backgroundColor%22%3A%5B%22%23f1e05a%22%2C%22%23563d7c%22%2C%22%23e34c26%22%5D%7D%5D%7D%7D)
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# clone the repo
+git clone https://github.com/ryanw-2/cmu-waterpolo.git
+cd cmu-waterpolo
+
+# install dependencies
+npm install
+
+# run locally
+npm run dev
