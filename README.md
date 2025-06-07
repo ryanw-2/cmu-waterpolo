@@ -1,6 +1,6 @@
 # CMU Men’s Water Polo Club Website 🏊‍♂️
 
-A lightweight, mobile-first site that showcases Carnegie Mellon’s Men’s Water Polo Club, centralizing news, roster highlights, and resources for current and prospective players. Built for speed and easy maintenance, the project lives on **GitHub Pages** for zero-cost hosting and continuous deployment.
+A lightweight site that showcases Carnegie Mellon’s Men’s Water Polo Club, centralizing news, roster highlights, and resources for current and prospective players. Built for speed and easy maintenance, the project lives on **GitHub Pages** for zero-cost hosting and continuous deployment.
 
 ---
 
@@ -11,18 +11,7 @@ A lightweight, mobile-first site that showcases Carnegie Mellon’s Men’s Wate
 
 ## 📸 Preview  
 <!-- Replace the link below with an actual screenshot once one is committed -->
-![Homepage screenshot](./src/assets/Events.JPG)
-
----
-
-## 🛠️ Tech Stack
-| Layer | Tools & Frameworks |
-|-------|--------------------|
-| Front-end | **React (vite)** |
-| Styling  | **Tailwind CSS** + custom CSS |
-| Routing  | `react-router-dom` |
-| Animations/UX | `react-card-flip`, CSS transitions |
-| Deployment | **GitHub Pages** (Actions) |
+![Homepage screenshot](./src/assets/preview.jpg)
 
 ---
 
@@ -35,7 +24,7 @@ A lightweight, mobile-first site that showcases Carnegie Mellon’s Men’s Wate
 
 ```bash
 # clone the repo
-git clone https://github.com/ryanw-2/cmu-waterpolo.git
+git clone https://github.com/yourusername/cmu-waterpolo.git
 cd cmu-waterpolo
 
 # install dependencies
